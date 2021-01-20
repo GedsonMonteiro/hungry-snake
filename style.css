@@ -1,0 +1,57 @@
+*{
+    margin: auto;
+    max-width:100%;
+    height:auto;
+}
+
+body{
+    height: 95vh;
+    width: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/img/snake-game-wallpapers-by\ caveman.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+#snake{
+    border-style: dotted;
+    color: #73de6e;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    font-family: 'Courier', monospace;
+    -webkit-font-smoothing : none;
+    color: white;
+    font-size: 80px;
+}
+
+#ca{
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    font-size: 20px;
+    font-family: 'Courier', monospace;
+    font-weight: bold;
+
+/*  position: fixed;
+    left: 60px;
+    right: 60px;
+    bottom: 60px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: none;
+    */
